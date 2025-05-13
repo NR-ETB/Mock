@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="View/css/style.css">
+    <link rel="icon" href="View/images/etb.png" type="image/x-icon">
+    <title>APN ETB</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <img class="logo" src="View/images/etb.png" alt="">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="View/images/menu.png" class="menu-icon" alt="">
+            </label>
+            <nav class="navbar" style="display: none;">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <h1>Configura tu APN</h1>
+            <p>El APN (Access Point Name) es la configuración que permite a tu dispositivo móvil conectarse a Internet a través de la red de tu operador.
+            </p>
+        </div>
+
+    </header>
+    
+    <section id="mainS" class="coffee">
+        <img class="coffee-img" alt="">
+
+        <div class="coffee-content">
+            <h2><span>Seleccióna tu dispositivo</span></h2>
+
+            <div class="coffee-group">
+
+                <div class="coffee-1" id="cof1">
+                    <img onclick="androidScreen();" id="androidImage" src="View/images/android.png" alt="">
+                    <h3 id="text1">Android</h3>
+                    <p>
+                        📱Ve a Ajustes > Redes móviles > APN y añade los datos de tu operador <br> para activar internet y MMS.
+                    </p>
+                </div>
+
+                <div class="coffee-1" id="cof2">
+                    <img onclick="iosScreen();" id="appleImage" src="View/images/apple.png" alt="">
+                    <h3 id="text2">iOS</h3>
+                    <p>
+                        🍎En Ajustes > Datos móviles > Red de datos móviles, ingresa el APN <br> si tu operador lo permite.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="androidS" class="coffee" style="display: none;">
+
+        <div class="coffee-content">
+            <h2><span>Paso a paso android</span></h2>
+
+            <div class="tab-menu">
+
+                <div class="tab active" id="tab-iphone">
+                    <img src="View/images/android2.png">
+                    Android
+                </div>
+
+                <div onclick="iosScreen();" class="tab" id="tab-android">
+                    <img src="View/images/apple.png">
+                    iPhone
+                </div>
+
+            </div>
+
+            <div class="instrucciones">
+                <p>Para configurarlo en teléfonos ó tablets Android debemos seguir las siguientes instrucciones:</p>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 1">
+                    <span>Vamos a <strong>Ajustes / Conexiones</strong>.</span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 2">
+                    <span>Ahora a <strong>Redes Móviles</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 3">
+                    <span>Seleccionamos <strong>Nombres de punto de acceso</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 4">
+                    <span>Ahora le damos a la opción de <strong>Añadir</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 4">
+                    <span>Ingresamos el Nombre <strong>ETB</strong> y también sañadimos la APN <strong>etb.com</strong> <br> ahora damos en <strong>Guardar</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 4">
+                    <span>Por ultimo seleccionamos la nueva <strong>APN que Añadimos</strong></span>
+                </div>
+
+                <p>Con estas imágenes puedes ver el paso a paso del proceso:</p>
+            </div>
+
+
+            <div class="coffee-group">
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app5.PNG" alt="">
+                    <h3>APN Android - Paso 1</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app6.PNG" alt="">
+                    <h3>APN Android - Paso 2</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app7.PNG" alt="">
+                    <h3>APN Android - Paso 3</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app8.PNG" alt="">
+                    <h3>APN Android - Paso 4</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app9.PNG" alt="">
+                    <h3>APN Android - Paso 5</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app10.PNG" alt="">
+                    <h3>APN Android - Paso 6</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iosS" class="coffee" style="display: none;">
+
+        <div class="coffee-content">
+            <h2><span>Paso a paso ios</span></h2>
+
+            <div class="tab-menu">
+
+                <div onclick="androidScreen();" class="tab" id="tab-iphone">
+                    <img src="View/images/android.png">
+                    Android
+                </div>
+
+                <div class="tab active" id="tab-android">
+                    <img src="View/images/apple2.png">
+                    iPhone
+                </div>
+                
+            </div>
+
+            <div class="instrucciones">
+                <p>Para configurarlo en iPhone ó iPad debemos seguir las siguientes instrucciones:</p>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 1">
+                    <span>Vamos a <strong>Configuración</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 2">
+                    <span>Vamos a <strong>Red Celular</strong></span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 3">
+                    <span>Selección de Red</span>
+                </div>
+
+                <div class="paso">
+                    <img src="View/images/point.png" alt="Icono paso 4">
+                    <span>En punto de acceso activa la opción <strong>Automatica</strong></span>
+                </div>
+
+                <p>Con estas imágenes puedes ver el paso a paso del proceso:</p>
+            </div>
+
+            <div class="coffee-group2">
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app1.jpg" alt="">
+                    <h3>APN iOS - Paso 1</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app2.jpg" alt="">
+                    <h3>APN iOS - Paso 2</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app3.jpg" alt="">
+                    <h3>APN iOS - Paso 3</h3>
+                </div>
+
+                <div class="coffee-1">
+                    <img src="View/images/pass/app4.jpg" alt="">
+                    <h3>APN iOS - Paso 4</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <ul>
+                    <li><a href="#">© Copyright 2025 ETB (Empresa de Telecomunicaciones de Bogota) Todos los derechos reservados.</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="Controller/main.js"></script>
+</body>
+</html>
