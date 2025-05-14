@@ -343,6 +343,13 @@ p{
 
 }
 
+#paso{
+
+    position: relative; 
+    top: 50px;
+
+}
+
 .footer{
 
     padding: 10px 0;
@@ -511,6 +518,26 @@ p{
         display: none; /* No se mostrara el elemento a menos de que se realize una accion determinada */
 
     }
+
+    #paso img{
+
+        margin-top: 0;
+
+    }
+
+    #paso{
+
+        position: relative; 
+        top: 25px;
+
+    }
+
+    #paso span{
+
+        text-align: center;
+
+    }
+
 
     .footer{
 
