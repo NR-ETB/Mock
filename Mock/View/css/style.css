@@ -443,7 +443,6 @@ p{
     }
             
     .paso {
-        display: flex;
         align-items: flex-start;
         margin-bottom: 15px;
     }
@@ -540,6 +539,167 @@ p{
         flex-direction: column; /* Determina la dirección en que se ordenarán los elementos en el espacio */
         margin-bottom: 0;
         margin-right: 60px;
+
+    }
+
+    .coffee-img{
+
+        display: none; /* No se mostrara el elemento a menos de que se realize una accion determinada */
+
+    }
+
+    #paso img{
+
+        margin-top: 0;
+
+    }
+
+    #paso{
+
+        position: relative; 
+        top: 25px;
+
+    }
+
+    #paso span{
+
+        text-align: center;
+
+    }
+
+
+    .footer{
+
+        padding: 30px;
+
+    }
+
+    .footer-content{
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+
+    .logo {
+        margin: 20px auto;
+        display: block;
+    }
+            
+    .header-content h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+            
+    .tab-menu {
+        margin: 30px auto;
+        width: 100%;
+        justify-content: center;
+    }
+            
+    .coffee-group {
+        justify-content: center;
+        margin: 50px 0;
+    }
+            
+    #cof1, #cof2 {
+        margin: 15px auto;
+    }
+            
+    .instrucciones {
+        padding: 0 15px;
+    }
+            
+    .link a {
+        margin: 0 auto;
+        text-align: center;
+    }
+            
+    .paso {
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+            
+    .paso img {
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+            
+    .paso span {
+        text-align: left;
+    }
+
+    .menu{
+
+        padding: 30px;
+
+    }
+
+    .menu label{
+
+        display: initial; /* Valor en el que se iniciara, las propiedades*/
+
+    }
+
+    .menu .navbar{
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+
+    }
+
+    .menu .nabvar ul li{
+
+        width: 100%;
+
+    }
+
+    #menu:checked ~ .navbar{ /* Para poner el simbolo "~" es con alt + 126*/
+
+        display: initial;
+        
+    } 
+    
+    .header{
+
+        min-height: 0vh; /* Se usa para definir la altura mínima de un elemento */
+
+    }
+
+    .header-content{
+
+        padding: 100px 30px;
+
+    }
+
+    .header-content p{
+ 
+        padding: 0;
+
+    }
+
+    .coffee{
+
+        padding: 30px;
+
+    }
+
+    .coffee-content h2{
+
+        padding: 0;
+
+    }
+
+    .txt-p{
+
+        padding: 0;
 
     }
 
