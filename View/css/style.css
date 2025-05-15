@@ -582,7 +582,7 @@ p{
     }
 }
 
-@media (max-width: 1400px) {
+@media screen and (min-width: 1400px) and (max-width: 1630px) {
 
     .logo {
         margin: 20px auto;
