@@ -405,7 +405,7 @@ p{
 }
 /* Parte responsive de la pagina */
 
-@media(max-width:1399px){
+@media(max-width:1199px){
 
     .logo {
         margin: 20px auto;
@@ -582,7 +582,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1850px) {
+@media screen and (min-width: 1200px) and (max-width: 1850px) {
     .logo {
         margin: 20px auto;
         display: block;
