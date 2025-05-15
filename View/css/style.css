@@ -582,8 +582,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1630px) {
-
+@media screen and (min-width: 1400px) and (max-width: 1850px) {
     .logo {
         margin: 20px auto;
         display: block;
@@ -607,6 +606,10 @@ p{
 
     .coffee-1 img{
         width: 150px;
+    }
+
+    .tab-menu{
+        margin: 50px 0 50px 740px;
     }
             
     #cof1, #cof2 {
