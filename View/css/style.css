@@ -403,9 +403,9 @@ p{
     height: 35px;
     fill: white;
 }
-/* Parte responsive de la pagina */
 
-@media(max-width:1199px){
+/* Parte responsive Android/iOS */
+@media(min-width: 769px) and (max-width: 1179px){
 
     .logo {
         margin: 20px auto;
@@ -424,6 +424,12 @@ p{
     }
             
     .coffee-group {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    .coffee-group2 {
         flex-wrap: wrap;
         justify-content: center;
         margin: 50px 0;
@@ -582,6 +588,7 @@ p{
     }
 }
 
+/* Parte responsive Portatiles */
 @media screen and (min-width: 1200px) and (max-width: 1630px) {
 
     .logo {
