@@ -582,7 +582,7 @@ p{
     }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1600px) {
+@media (max-width: 1400px) {
 
     .logo {
         margin: 20px auto;
@@ -603,6 +603,10 @@ p{
     .coffee-group {
         justify-content: center;
         margin: 50px 0;
+    }
+
+    .coffee-1 img{
+        width: 150px;
     }
             
     #cof1, #cof2 {
@@ -727,7 +731,6 @@ p{
         text-align: center;
 
     }
-
 
     .footer{
 
