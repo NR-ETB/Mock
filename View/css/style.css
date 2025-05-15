@@ -405,7 +405,7 @@ p{
 }
 
 /* Parte responsive Android/iOS */
-@media(max-width: 1199px){
+@media only screen and (orientation: portrait){
 
     .logo {
         margin: 20px auto;
