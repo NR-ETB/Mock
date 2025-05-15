@@ -527,6 +527,13 @@ p{
 
     }
 
+    .coffee-content span{
+
+        position: relative;
+        right: 10px;
+
+    }
+
     .txt-p{
 
         padding: 0;
