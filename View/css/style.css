@@ -612,6 +612,14 @@ p{
         width: 100%;
         justify-content: center;
     }
+
+    .coffee-group{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 0 50px;
+
+    }
             
     .coffee-group1 {
         display: grid;
