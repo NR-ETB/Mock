@@ -423,7 +423,7 @@ p{
         justify-content: center;
     }
             
-    .coffee-group {
+    .coffee-group1 {
         flex-wrap: wrap;
         justify-content: center;
         margin: 50px 0;
@@ -613,7 +613,7 @@ p{
         justify-content: center;
     }
             
-    .coffee-group {
+    .coffee-group1 {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3 columnas en cada fila */
         gap: 15px;
@@ -698,12 +698,6 @@ p{
     .header-content{
 
         padding: 100px 30px;
-
-    }
-
-    .header-content p{
- 
-        padding: 0;
 
     }
 
